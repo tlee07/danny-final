@@ -9,16 +9,58 @@
 	
 <body>
 	<a-scene>
-		<a-sky src="https://916992e1-a-b6f565b0-s-sites.googlegroups.com/a/risd.edu/123/vr/IMG_9498.JPG?attachauth=ANoY7crfb_MvEsdWZuPErGR4g4feOExogpJvrXbEV-nOJyM3R0xYm6BP9Y3oa5UPUkzaMoXMk5zjYdeS4mfn86exCYm-zUttwerBrO7S4k7KYnrQyGLLR3NLcupfaHPNxTx-nbh4mqL78pAY-FisTZ-Xk8ursEOpfaPrsvB42w7xHCDplUExLeYsoyc1dGF4njBLV-9wIyZb&attredirects=0" rotation="0 -130 0"></a-sky>
+		<a-sky src="" rotation="0 -130 0"></a-sky>
+
 		
-		<a-sphere position="0 1.25 -5" radius="4" color="#EF2D5E">
-			 <a-animation attribute="position" from="0 1.25 -5" to="0 1.25 -3"></a-animation> 
-			 <a-animation attribute="position" from="0 1.25 -3" to="0 1.25 -5"></a-animation>
+		<a-sphere position="0 1.25 -5"  color="#EF2D5E">
+				    
+			 <a-animation attribute="radius" 
+			 				dur="10000"
+			 				from="0.5" to="2"
+			 				repeat="indefinite">
+			 				 </a-animation>
+
 		</a-sphere>
-		<a-sphere position="-2 1 2" radius="0.5" color="#4CC3D9"></a-sphere>
-		<a-sphere position="1 0.75 3" radius="0.5" color="#FFC65D"></a-sphere>
+		<a-sphere position="0 1.25 -5"  color="#EF2D5E">
+				    
+			 <a-animation attribute="radius" 
+			 				dur="10000"
+			 				from="2" to="0.5"
+			 				repeat="indefinite">
+			 				 </a-animation>
+		</a-sphere>
+		<a-sphere position="1 0.75 3"  color="#FFC65D">
+			<a-animation attribute="radius" 
+			 				dur="10000"
+			 				from="1" to="0.2"
+			 				repeat="indefinite">
+			 				 </a-animation>
+		</a-sphere>
+
+		<a-sphere position="1 0.75 3" color="#FFC65D">
+			<a-animation attribute="radius" 
+			 				dur="10000"
+			 				from="0.2" to="1"
+			 				repeat="indefinite">
+			 				 </a-animation>
+		</a-sphere>
+
+		<a-sphere position="-2 1 5" color="#4CC3D9">
+		     <a-animation attribute="radius" 
+			 				dur="10000"
+			 				from="1" to="0.2"
+			 				repeat="indefinite">
+			 				 </a-animation>
+		</a-sphere>
+	    <a-sphere position="-2 1 5" color="#4CC3D9">
+		     <a-animation attribute="radius" 
+			 				dur="10000"
+			 				from="0.2" to="1"
+			 				repeat="indefinite">
+			 				 </a-animation>
+		</a-sphere>
+		
 
 	</a-scene>
 </body>
 </html
-
