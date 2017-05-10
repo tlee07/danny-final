@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Welcome to Danny's World! </title>
+	<meta name="description" content="Hello, World! - A-Frame">
+	<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+</head>
+	
+<body>
+	<a-scene>
+		<a-sky src="https://916992e1-a-b6f565b0-s-sites.googlegroups.com/a/risd.edu/123/vr/IMG_9498.JPG?attachauth=ANoY7crfb_MvEsdWZuPErGR4g4feOExogpJvrXbEV-nOJyM3R0xYm6BP9Y3oa5UPUkzaMoXMk5zjYdeS4mfn86exCYm-zUttwerBrO7S4k7KYnrQyGLLR3NLcupfaHPNxTx-nbh4mqL78pAY-FisTZ-Xk8ursEOpfaPrsvB42w7xHCDplUExLeYsoyc1dGF4njBLV-9wIyZb&attredirects=0" rotation="0 -130 0"></a-sky>
+		
+		<a-sphere position="0 1.25 -5" radius="2" color="#EF2D5E">
+			 <a-animation attribute="position" from="0 1.25 -5" to="0 1.25 -3"></a-animation> 
+			 <a-animation attribute="position" from="0 1.25 -3" to="0 1.25 -5"></a-animation> 
+		</a-sphere>
+		<a-sphere position="-2 1 2" radius="0.5" color="#4CC3D9"></a-sphere>
+		<a-sphere position="1 0.75 3" radius="0.5" color="#FFC65D"></a-sphere>
+
+	</a-scene>
+</body>
+</html
