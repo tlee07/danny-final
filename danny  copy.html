@@ -15,6 +15,24 @@
 		<a-entity light="type: ambient; color: #BBB"></a-entity>
 		<a-entity light="type: directional; color: #FFF; intensity: 0.6" position="-0.5 1 1"></a-entity>
 		
+		<a-sphere position="-10 -5 -15"  color="#EF2D5E" material="src: pexels-photo-242616.jpeg ">
+				    
+			 <a-animation attribute="radius" 
+			 				dur="10000"
+			 				from="0.5" to="3"
+			 				repeat="indefinite">
+			 				 </a-animation>
+
+		</a-sphere>
+		
+		<a-sphere position="-10 -5 -15"  color="#EF2D5E">
+				    
+			 <a-animation attribute="radius" 
+			 				dur="10000"
+			 				from="3" to="0.5"
+			 				repeat="indefinite">
+			 				 </a-animation>
+			
 		<a-sphere position="-10 -5 -15"  color="#EF2D5E">
 				    
 			 <a-animation attribute="radius" 
@@ -34,7 +52,7 @@
 			 				 </a-animation>
 
 		</a-sphere>
-		<a-sphere position="1 0.75 3"  color="#FFC65D">
+		<a-sphere position="1 0.75 3"  color="#FFC65D" op>
 			<a-animation attribute="radius" 
 			 				dur="10000"
 			 				from="0.5" to="0.2"
