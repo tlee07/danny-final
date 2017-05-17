@@ -6,6 +6,7 @@
 	
 	<meta name="description" content="Hello, World! - A-Frame">
 	<script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+	<script src="https://unpkg.com/aframe-animation-component/dist/aframe-animation-component.min.js"></script> 
 </head>
 	
 <body>
@@ -14,18 +15,13 @@
 		
 		
 		<a-sphere position="-9 2 10"  color= "#17d861" opacity="0.5"; transparent="true" radius="0">
-			<a-animation attribute="radius" 
-			 				
-				dur="5000"
-				     
-			 	from="0" to="3"
-				 dur="10000"
-				   
-			 	from="3" to="0"
-				     
-				     repeat="indefinite"
-				     >
-				</a-animation></a-sphere>
+	<a-animation attribute="radius" 
+		dur="5000"
+		from="0" to="3"
+		direction="alternate"
+		repeat="indefinite">
+	</a-animation>
+</a-sphere>
 		 
 			 				
 				
