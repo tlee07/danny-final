@@ -14,25 +14,20 @@
 		
 		
 		<a-sphere position="-9 2 10"  color= "#17d861" opacity="0.5"; transparent="true" >
-			<a-animation attribute="scale" 
+			<a-animation attribute="radius" 
 			 				dur="5000"
 			 				from="0" to="3"
-				     
-				
-		
-		
-				     			dur="10000"
+				  			dur="10000"
 				     			from="3" to="0"
-				     
-				     			
-				     
 				   
-				     			
-				     			
-				     			
 			 				
 				     			repeat="infinite">
 			 				 </a-animation></a-sphere>
+		    <a-cylinder id="piston" color="#F55" radius="0.1"
+                    animation__scale="property: scale; dir: alternate; dur: 200; delay: 2000;
+                                      easing: easeInSine; loop: true; to: 1.2 1 1.2"
+                    >
+        </a-cylinder>
 		
 		
 	
